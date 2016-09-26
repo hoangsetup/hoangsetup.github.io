@@ -1,0 +1,13 @@
+{  
+    "name": "Push Notification",  
+    "short_name": "Push Desktop Notification",  
+    "icons": [{  
+        "src": "img/icon-192x192.png",  
+        "sizes": "192x192",
+        "type": "image/png"
+    }],
+    "start_url": "/",
+    "display": "standalone",
+    "gcm_sender_id": "405063180469",
+    "gcm_user_visible_only": true
+}
