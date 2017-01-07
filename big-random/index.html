@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Lucky Numbers</title>
+    <link rel="icon" href="src/images/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700&amp;subset=vietnamese" rel="stylesheet">
+    <!--<link rel="stylesheet" href="src/css/bootstrap.min.css">
+    <link rel="stylesheet" href="src/css/style.css">-->
+    <!--<script src="src/js/jquery.js"></script>-->
+    <script type="text/javascript">
+		var config = {
+			subArray: 'DRM1',
+			hackme: [],
+            delayShowSlot: 1500
+		}
+    </script>
+</head>
+<body>
+<section class="results">
+    <div class="container">
+        <table id="tblResult">
+            <thead>
+            <tr>
+                <th>Giải Đặc biệt</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        <a href="" class="trigger-close"><img src="src/images/close.png" alt=""></a>
+    </div>
+</section>
+<div class="wrapper text-center main-part">
+    <div class="container">
+        <h1><span>Lucky Numbers</span></h1>
+        <div class="link-company">
+            Year End Party 2016
+        </div>
+        <div class="coin">
+            <img src="src/images/diamond-prize.svg" alt="">
+        </div>
+        <div class="section-actions">
+            <div class="section-head-actions">
+                <a href="">Gải đặc biệt</a>
+            </div>
+            <div class="section-body">
+                <div class="section-body-inner section-body-inner-primary">
+                    <ul class="slots">
+                        <li><img src="src/images/diamond-prize.svg" alt=""></li>
+                        <li class="blur">0</li>
+                        <li>V</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                        <li>5</li>
+                        <li>6</li>
+                        <li>7</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="section-message" style="min-height: 50px">
+                <h2 class="state-ready" id="txtMessage">Nhấn nút Quay số để bắt đầu</h2>
+            </div>
+            <div class="section-button">
+                <div class="state-ready">
+                    <a class="btn btn-yellow btn-yellow-secondary" id="btnStartStop">Quay số</a>
+                </div>
+            </div>
+        </div>
+        <!-- /.section-actions -->
+        <div class="section-links">
+            <a href="" class="trigger-show-results"><img src="src/images/list.png" alt=""> Kết quả</a>
+        </div>
+    </div>
+</div>
+<!--<script src="src/js/custom.js"></script>-->
+<script src="dist/bundle.js"></script>
+<audio src="src/sounds/ding.wav" id="auDing"></audio>
+<audio src="src/sounds/background.mp3" id="auBackgroud" autoplay loop></audio>
+</body>
+</html>
