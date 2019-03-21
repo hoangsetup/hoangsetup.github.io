@@ -32,6 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
     seconds.innerHTML = s;
   }
   showDate();
+  showTime();
   setInterval(showTime, 1000);
   setInterval(showDate, 1000);
 });

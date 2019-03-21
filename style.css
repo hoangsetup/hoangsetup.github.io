@@ -81,7 +81,7 @@ img {
 
 .time > div{
   float:right;
-  font-size: 1em;
+  font-size: 1.5em;
   margin:10px;
 }
 
@@ -185,6 +185,9 @@ img {
   }
   .time {
     margin-top: 1rem;
+  }
+  .time > div{
+    font-size: 0.9em;
   }
   .thank {
     margin-top: 0;
