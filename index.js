@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var seconds = document.querySelector('.second');
   
   function showDate() {
-    let ani = new Date(2018, 07, 28);
+    let ani = new Date(1532710800000); // "2018/Jul/28"
     let now = new Date();
     let date = Math.floor((now - ani) / 1000 / 60 / 60 / 24);
     innerDate.innerHTML = date;
