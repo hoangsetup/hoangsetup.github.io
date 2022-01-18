@@ -1703,12 +1703,12 @@ body.offcanvas .oliven-nav-toggle {
     background: #fff;
 }
 
-.whenwhere .item .content .tag a {
+.whenwhere .item .content p a {
     color: #888;
     font-style: italic;
 }
 
-.whenwhere .item .content .tag a:hover {
+.whenwhere .item .content p a:hover {
     color: #BD945A;
 }
 
